@@ -4452,6 +4452,62 @@ Cancel to make a minimal device scan instead.</source>
         <source>%1 Settings</source>
         <translation>%1设置</translation>
     </message>
+    <message>
+        <source>Network</source>
+        <translation>网络</translation>
+    </message>
+    <message>
+        <source>Enable proxy</source>
+        <translation>启用代理</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>类型</translation>
+    </message>
+    <message>
+        <source>System default</source>
+        <translation>系统默认</translation>
+    </message>
+    <message>
+        <source>Host</source>
+        <translation>主机</translation>
+    </message>
+    <message>
+        <source>e.g. proxy.example.com</source>
+        <translation>例如: proxy.example.com</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>端口</translation>
+    </message>
+    <message>
+        <source>e.g. 8888</source>
+        <translation>例如: 8888</translation>
+    </message>
+    <message>
+        <source>Username</source>
+        <translation>用户名</translation>
+    </message>
+    <message>
+        <source>Optional</source>
+        <translation>可选</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>密码</translation>
+    </message>
+    <message>
+        <source>URLs excluded from proxy (comma-separated)</source>
+        <translation>代理排除的URL (逗号分隔)</translation>
+    </message>
+    <message>
+        <source>e.g. localhost, 192.168.*</source>
+        <translation>例如: localhost, 192.168.*</translation>
+    </message>
+    <message>
+        <source>Configure a network proxy to route QField&apos;s traffic through a proxy server. Useful for corporate networks and VPNs.</source>
+        <translation>配置网络代理，通过代理服务器路径QField的流量。适用于企业网络和VPN。</translation>
+    </message>
 </context>
 <context>
     <name>QFieldSketcher</name>
@@ -4722,6 +4778,29 @@ Cancel to make a minimal device scan instead.</source>
     <message>
         <source>close</source>
         <translation type="unfinished"/>
+    </message>
+</context>
+<context>
+    <name>QfDialog</name>
+    <message>
+        <source>OK</source>
+        <translation>确定</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>是</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>否</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>关闭</translation>
     </message>
 </context>
 <context>
