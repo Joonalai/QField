@@ -210,7 +210,7 @@
     </message>
     <message numerus="yes">
         <source>%n device(s) found</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%n சாதனம்(கள்) கண்டறியப்பட்டன</numerusform><numerusform>%n சாதனம்(கள்) கண்டறியப்பட்டன</numerusform></translation>
     </message>
     <message>
         <source>Scanning canceled</source>
@@ -972,15 +972,15 @@ Cancel to make a minimal device scan instead.</source>
     </message>
     <message numerus="yes">
         <source>Undo creation of %n feature(s) on layer %1.</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%1 அடுக்கில் %n உறுப்புகளை உருவாக்கியதை ரத்து செய்.</numerusform><numerusform>%1 அடுக்கில் %n உறுப்புகளை உருவாக்கியதை ரத்து செய்.</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Undo creation of %n feature(s).</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%n அம்சங்களை உருவாக்கியதை ரத்துசெய்</numerusform><numerusform>%n அம்சங்களை உருவாக்கியதை ரத்துசெய்</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Undo deletion of %n feature(s) on layer %1.</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%1 அடுக்கில் உள்ள %n சிறப்பம்சங்களின் நீக்கத்தை ரத்து செய்.</numerusform><numerusform>%1 அடுக்கில் உள்ள %n சிறப்பம்சங்களின் நீக்கத்தை ரத்து செய்.</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Undo deletion of %n feature(s).</source>
@@ -4070,7 +4070,7 @@ While you can still view and use the project, it is strongly recommended to rese
     </message>
     <message numerus="yes">
         <source>%n device(s) found</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="vanished"><numerusform>%n சாதனம்(கள்) கண்டறியப்பட்டன</numerusform><numerusform>%n சாதனம்(கள்) கண்டறியப்பட்டன</numerusform></translation>
     </message>
     <message>
         <source>Scanning canceled</source>
