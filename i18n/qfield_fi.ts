@@ -1623,7 +1623,7 @@ Kohteen geometriat yhdistetään kohteeseen &apos;%1&apos;, johon sisällytetä�
     </message>
     <message>
         <source>Sample projects</source>
-        <translation>Esimerkki projektit</translation>
+        <translation type="vanished">Esimerkki projektit</translation>
     </message>
     <message>
         <source>Created projects</source>
@@ -2540,7 +2540,7 @@ Kohteen geometriat yhdistetään kohteeseen &apos;%1&apos;, johon sisällytetä�
     </message>
     <message>
         <source>Learn more about QFieldCloud here</source>
-        <translation type="unfinished"/>
+        <translation>Lue lisää QFieldCloudista</translation>
     </message>
     <message>
         <source>Create Project</source>
@@ -3209,7 +3209,7 @@ epäonnistui, syy: %2</translation>
     </message>
     <message>
         <source>Network error. Failed to upload file `%1`.</source>
-        <translation type="unfinished"/>
+        <translation>Verkkovirhe. Tiedoston &apos;%1&apos; lähetys epäonnistui.</translation>
     </message>
     <message>
         <source>One or more files could not be uploaded</source>
@@ -3407,7 +3407,7 @@ syy: %2</translation>
     </message>
     <message>
         <source>Network is not currently active. We will push the changes automatically once you are back online.</source>
-        <translation type="unfinished"/>
+        <translation>Verkko ei ole tällä hetkellä käytössä. Lähetämme muutokset automaattisesti, kun olet taas online‑tilassa.</translation>
     </message>
 </context>
 <context>
@@ -4012,7 +4012,7 @@ Tämä voi viedä jonkin aikaa, ole hyvä ja odota...</translation>
     </message>
     <message>
         <source>Consider mouse as a touchscreen device</source>
-        <translation>Harkitse hiirtä kosketusnäytön laitteena</translation>
+        <translation>Käytä hiirtä kuin kosketusnäyttölaitetta</translation>
     </message>
     <message>
         <source>If disabled, the mouse will act as a stylus pen.</source>
@@ -4394,63 +4394,63 @@ Peruuta tehdäksesi suppeampi laiteskannaus.</translation>
     </message>
     <message>
         <source>Maximize feature form</source>
-        <translation type="unfinished"/>
+        <translation>Avaa kohdelomake koko näytölle</translation>
     </message>
     <message>
         <source>Open feature form for single feature identification</source>
-        <translation type="unfinished"/>
+        <translation>Avaa kohdelomake automaattisesti, kun tunnistetaan yksi kohde</translation>
     </message>
     <message>
         <source>If enabled, areas just outside of the visible map canvas extent will be partially rendered to allow preview when zooming and panning.</source>
-        <translation type="unfinished"/>
+        <translation>Jos tämä on käytössä, näkyvän kartta‑alueen ulkopuolella olevia alueita piirretään osittain, jotta zoomaus ja panorointi näyttävät esikatselun sujuvasti.</translation>
     </message>
     <message>
         <source>Enable auto-save mode</source>
-        <translation type="unfinished"/>
+        <translation>Ota automaattinen tallennus käyttöön</translation>
     </message>
     <message>
         <source>If enabled, newly-added features are stored as soon as it has having a valid geometry and the constraints are fulfilled and edited atributes are commited immediately.</source>
-        <translation type="unfinished"/>
+        <translation>Jos tämä on käytössä, uudet kohteet tallennetaan heti, kun niillä on kelvollinen geometria ja kaikki rajoitteet täyttyvät, ja muokatut ominaisuustiedot kirjataan välittömästi.</translation>
     </message>
     <message>
         <source>Auto-zoom to identified feature(s)</source>
-        <translation type="unfinished"/>
+        <translation>Zoomaa automaattisesti tunnistettuun kohteeseen/kohteisiin</translation>
     </message>
     <message>
         <source>When enabled, the map will automatically zoom to show all identified features, as well as the individual selected feature when the feature form is opened.</source>
-        <translation type="unfinished"/>
+        <translation>Kun tämä on käytössä, kartta zoomaa automaattisesti niin, että kaikki tunnistetut kohteet näkyvät. Lisäksi kartta zoomaa valittuun yksittäiseen kohteeseen, kun kohdelomake avataan.</translation>
     </message>
     <message>
         <source>Behavior when locked to position:</source>
-        <translation type="unfinished"/>
+        <translation>Toiminta, kun sijainti on lukittuna:</translation>
     </message>
     <message>
         <source>Follow position only</source>
-        <translation type="unfinished"/>
+        <translation>Seuraa vain sijaintia</translation>
     </message>
     <message>
         <source>Follow position and compass orientation</source>
-        <translation type="unfinished"/>
+        <translation>Seuraa sijaintia ja kompassin suuntaa</translation>
     </message>
     <message>
         <source>Follow position and movement direction</source>
-        <translation type="unfinished"/>
+        <translation>Seuraa sijaintia ja liikesuuntaa</translation>
     </message>
     <message>
         <source>When the map canvas is following or locked to position, it can also rotate to match compass orientation or movement direction.</source>
-        <translation type="unfinished"/>
+        <translation>Kun kartta seuraa sijaintia tai on lukittuna siihen, se voi myös kääntyä kompassin- tai liikesuunnan mukaan.</translation>
     </message>
     <message>
         <source>If enabled, anonymized metrics will be collected and sent to help improve the experience for everyone.</source>
-        <translation type="unfinished"/>
+        <translation>Jos tämä on käytössä, anonyymejä mittaustietoja kerätään ja lähetetään käyttökokemuksen parantamiseksi.</translation>
     </message>
     <message>
         <source>If enabled, anonymized metrics will be collected and sent to help improve %1 for everyone.</source>
-        <translation type="unfinished"/>
+        <translation>Jos tämä on käytössä, anonyymejä mittaustietoja kerätään ja lähetetään, jotta %1 voidaan parantaa kaikille käyttäjille.</translation>
     </message>
     <message>
         <source>This value will correct the Z values recorded from the positioning device. If a value of 1.6 is entered, the system will automatically subtract 1.6 from each recorded value. Make sure to insert the effective antenna height, i.e. pole length + antenna phase center offset.</source>
-        <translation type="unfinished"/>
+        <translation>Tämä arvo korjaa paikannuslaitteelta tallennettavat Z‑arvot. Jos syötät arvon 1,6, järjestelmä vähentää automaattisesti 1,6 jokaisesta tallennetusta arvosta. Varmista, että syötät todellisen antennikorkeuden, eli kepin pituuden + antennin pohjan keskipisteestä mitattu laitteen korkeus</translation>
     </message>
     <message>
         <source>%1 Settings</source>
@@ -4458,11 +4458,11 @@ Peruuta tehdäksesi suppeampi laiteskannaus.</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation type="unfinished"/>
+        <translation>Verkkoasetukset</translation>
     </message>
     <message>
         <source>Enable proxy</source>
-        <translation type="unfinished"/>
+        <translation>Ota välityspalvelin käyttöön</translation>
     </message>
     <message>
         <source>Type</source>
@@ -4478,7 +4478,7 @@ Peruuta tehdäksesi suppeampi laiteskannaus.</translation>
     </message>
     <message>
         <source>e.g. proxy.example.com</source>
-        <translation type="unfinished"/>
+        <translation>esim. proxy.example.com</translation>
     </message>
     <message>
         <source>Port</source>
@@ -4502,7 +4502,7 @@ Peruuta tehdäksesi suppeampi laiteskannaus.</translation>
     </message>
     <message>
         <source>URLs excluded from proxy (comma-separated)</source>
-        <translation type="unfinished"/>
+        <translation>Välityspalvelimen ohittavat URL‑osoitteet (pilkulla eroteltuna)</translation>
     </message>
     <message>
         <source>e.g. localhost, 192.168.*</source>
@@ -4510,7 +4510,7 @@ Peruuta tehdäksesi suppeampi laiteskannaus.</translation>
     </message>
     <message>
         <source>Configure a network proxy to route QField&apos;s traffic through a proxy server. Useful for corporate networks and VPNs.</source>
-        <translation type="unfinished"/>
+        <translation>Määritä verkon välityspalvelin, jotta QFieldin liikenne ohjataan proxy‑palvelimen kautta. Hyödyllinen yritysverkoissa ja VPN‑yhteyksissä.</translation>
     </message>
 </context>
 <context>
@@ -6837,7 +6837,7 @@ to show actions</source>
     </message>
     <message>
         <source>Enable positioning service to get points at your location</source>
-        <translation type="unfinished"/>
+        <translation>Ota paikannus käyttöön, jotta pisteet voidaan tallentaa sijaintiisi</translation>
     </message>
     <message>
         <source>Positioning service has not yet received a valid location</source>
