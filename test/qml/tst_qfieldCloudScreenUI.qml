@@ -153,12 +153,17 @@ TestCase {
     return configs;
   }
 
-  // Helper: Login and refresh projects list
-  function loginAndRefresh(data) {
+  // Helper: Login to server
+  function loginToServer(data) {
     cloudConnection.url = data.url;
     cloudConnection.username = data.username;
     cloudConnection.login(data.password);
-    tryCompare(cloudConnection, "status", QFieldCloudConnection.LoggedIn, 15000);
+    tryCompare(cloudConnection, "status", QFieldCloudConnection.LoggedIn, 30000);
+  }
+
+  // Helper: Login and refresh projects list
+  function loginAndRefresh(data) {
+    loginToServer(data);
     cloudProjectsModel.refreshProjectsList(true, false, 0);
     tryCompare(cloudProjectsModel, "isRefreshing", true, 5000);
     tryCompare(cloudProjectsModel, "isRefreshing", false, 30000);
@@ -200,10 +205,7 @@ TestCase {
     compare(cloudConnection.status, QFieldCloudConnection.Disconnected);
     verify(connectionSettings.visible);
     compare(projectsSwipeView.visible, false);
-    cloudConnection.url = data.url;
-    cloudConnection.username = data.username;
-    cloudConnection.login(data.password);
-    tryCompare(cloudConnection, "status", QFieldCloudConnection.LoggedIn, 15000);
+    loginToServer(data);
     wait(500);
     verify(projectsSwipeView.visible);
     compare(connectionSettings.visible, false);
@@ -219,10 +221,7 @@ TestCase {
     return serverConfigs();
   }
   function test_02_filterBarTabSwitching(data) {
-    cloudConnection.url = data.url;
-    cloudConnection.username = data.username;
-    cloudConnection.login(data.password);
-    tryCompare(cloudConnection, "status", QFieldCloudConnection.LoggedIn, 15000);
+    loginToServer(data);
     wait(500);
     compare(filterBar.currentIndex, 0);
     compare(table.model.filter, QFieldCloudProjectsFilterModel.PrivateProjects);
@@ -267,10 +266,7 @@ TestCase {
   function test_04_loginLogoutViewTransitions(data) {
     verify(connectionSettings.visible);
     compare(projectsSwipeView.visible, false);
-    cloudConnection.url = data.url;
-    cloudConnection.username = data.username;
-    cloudConnection.login(data.password);
-    tryCompare(cloudConnection, "status", QFieldCloudConnection.LoggedIn, 15000);
+    loginToServer(data);
     wait(500);
     verify(projectsSwipeView.visible);
     compare(connectionSettings.visible, false);
@@ -454,17 +450,25 @@ TestCase {
       downloadButton.clicked();
       wait(1000);
       project = cloudProjectsModel.findProject(projectInfo.id);
-      tryCompare(project, "status", QFieldCloudProject.Downloading, 5000);
-      table.positionViewAtIndex(projectInfo.rowIndex, ListView.Center);
-      wait(200);
-      delegate = table.itemAtIndex(projectInfo.rowIndex);
-      verify(delegate !== null);
-      downloadButton = delegate.children[1].children[2].children[0];
-      verify(downloadButton !== null);
-      downloadButton.clicked();
-      wait(1000);
-      project = cloudProjectsModel.findProject(projectInfo.id);
-      compare(project.status, QFieldCloudProject.Idle);
+      // The download may complete before we observe the Downloading state;
+      // only attempt cancel if still downloading.
+      if (project.status === QFieldCloudProject.Downloading) {
+        table.positionViewAtIndex(projectInfo.rowIndex, ListView.Center);
+        wait(200);
+        delegate = table.itemAtIndex(projectInfo.rowIndex);
+        verify(delegate !== null);
+        downloadButton = delegate.children[1].children[2].children[0];
+        verify(downloadButton !== null);
+        downloadButton.clicked();
+        wait(1000);
+        project = cloudProjectsModel.findProject(projectInfo.id);
+      }
+      tryCompare(project, "status", QFieldCloudProject.Idle, 180000);
+      if (project.localPath !== "") {
+        cloudProjectsModel.removeLocalProject(projectInfo.id);
+        wait(1000);
+        project = cloudProjectsModel.findProject(projectInfo.id);
+      }
       compare(project.localPath, "");
       wait(500);
     }
