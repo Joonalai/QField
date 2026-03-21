@@ -929,7 +929,7 @@ Peruuta tehd채ksesi suppeampi laiteskannaus.</translation>
     </message>
     <message>
         <source>Feature Form Menu</source>
-        <translation type="unfinished"/>
+        <translation>Kohdelomakkeen valikko</translation>
     </message>
     <message>
         <source>Remember All Reusable Values</source>
@@ -1881,7 +1881,7 @@ Kohteen geometriat yhdistet채채n kohteeseen &apos;%1&apos;, johon sis채llytet채�
     </message>
     <message>
         <source>Process Feature</source>
-        <translation type="unfinished"/>
+        <translation>K채sittele kohde</translation>
     </message>
     <message>
         <source>Feature copied to clipboard</source>
@@ -5073,7 +5073,7 @@ Peruuta tehd채ksesi suppeampi laiteskannaus.</translation>
     </message>
     <message numerus="yes">
         <source>%n feature(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%n kohde(tta)</numerusform><numerusform>%n kohde(tta)</numerusform></translation>
     </message>
 </context>
 <context>
@@ -6065,7 +6065,7 @@ project</source>
     </message>
     <message>
         <source>Point Feature Picker</source>
-        <translation type="unfinished"/>
+        <translation>Pistekohteen valitsin</translation>
     </message>
 </context>
 <context>
@@ -6744,19 +6744,19 @@ project</source>
     </message>
     <message>
         <source>Copy Feature</source>
-        <translation type="unfinished"/>
+        <translation>Kopioi kohde</translation>
     </message>
     <message>
         <source>Cut Feature</source>
-        <translation type="unfinished"/>
+        <translation>Leikkaa kohde</translation>
     </message>
     <message>
         <source>Feature pasted successfully</source>
-        <translation type="unfinished"/>
+        <translation>Kohde liitetty onnistuneesti</translation>
     </message>
     <message>
         <source>Failed to paste feature into layer</source>
-        <translation type="unfinished"/>
+        <translation>Kohteen liitt채minen tasoon ep채onnistui</translation>
     </message>
     <message>
         <source>Paste Into Layer</source>

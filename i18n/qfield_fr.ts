@@ -23,7 +23,7 @@
     </message>
     <message>
         <source>Powered by QField</source>
-        <translation type="unfinished"/>
+        <translation>Propulsé par QField</translation>
     </message>
     <message>
         <source>%1 app directories</source>
@@ -605,11 +605,11 @@ Cancel to make a minimal device scan instead.</source>
     </message>
     <message>
         <source>Expand All</source>
-        <translation type="unfinished"/>
+        <translation>Tout développer</translation>
     </message>
     <message>
         <source>Collapse All</source>
-        <translation type="unfinished"/>
+        <translation>Réduire tout</translation>
     </message>
 </context>
 <context>
@@ -1624,7 +1624,7 @@ Les géométries des objets vont être combinées dans l&apos;objet &apos;%1&apo
     </message>
     <message>
         <source>Sample projects</source>
-        <translation>Projets d&apos;exemple</translation>
+        <translation type="vanished">Projets d&apos;exemple</translation>
     </message>
     <message>
         <source>Created projects</source>
@@ -5869,7 +5869,7 @@ projet</translation>
     </message>
     <message>
         <source>Welcome back to %1.</source>
-        <translation type="unfinished"/>
+        <translation>Bienvenue à %1.</translation>
     </message>
     <message>
         <source>Welcome to %1.</source>
