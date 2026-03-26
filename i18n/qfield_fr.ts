@@ -2155,7 +2155,7 @@ Les géométries des objets vont être combinées dans l&apos;objet &apos;%1&apo
     </message>
     <message>
         <source>No plugins have been installed yet, switch to the %1available plugins%3 tab to try some right away.&lt;br&gt;&lt;br&gt;For more information, %2read the documentation%3.</source>
-        <translation type="unfinished"/>
+        <translation>Aucun plugin n&apos;a encore été installé, allez à l&apos;onglet %1available plugins%3 pour en essayer quelques-uns.&lt;br&gt;&lt;br&gt; Pour plus d&apos;informations, %2lire la documentation%3.</translation>
     </message>
 </context>
 <context>
@@ -2553,7 +2553,7 @@ Les géométries des objets vont être combinées dans l&apos;objet &apos;%1&apo
     </message>
     <message>
         <source>QFieldCloud allows to synchronize and merge the data collected by your team in %1. From small individual projects to large data collection campaigns. </source>
-        <translation type="unfinished"/>
+        <translation>QFieldCloud permet de synchroniser et de fusionner les données collectées par ton équipe dans %1. Du petit projet individuel aux grandes campagnes de collecte de données. </translation>
     </message>
 </context>
 <context>
@@ -2568,11 +2568,11 @@ Les géométries des objets vont être combinées dans l&apos;objet &apos;%1&apo
     </message>
     <message>
         <source>Time</source>
-        <translation type="unfinished"/>
+        <translation>Temps</translation>
     </message>
     <message>
         <source>Marker color</source>
-        <translation type="unfinished"/>
+        <translation>Couleur du marqueur</translation>
     </message>
     <message>
         <source>Title</source>
@@ -2584,7 +2584,7 @@ Les géométries des objets vont être combinées dans l&apos;objet &apos;%1&apo
     </message>
     <message>
         <source>Tracks</source>
-        <translation type="unfinished"/>
+        <translation>Suivis</translation>
     </message>
     <message>
         <source>Basemap</source>
@@ -2596,7 +2596,7 @@ Les géométries des objets vont être combinées dans l&apos;objet &apos;%1&apo
     </message>
     <message>
         <source>Track color</source>
-        <translation type="unfinished"/>
+        <translation>Couleur du suivi</translation>
     </message>
 </context>
 <context>
@@ -3176,7 +3176,7 @@ Même si vous pouvez toujours voir et utiliser ce projet, il est fortement recom
     </message>
     <message>
         <source>File system error. Failed to write attachment to temporary location `%1`.</source>
-        <translation type="unfinished"/>
+        <translation>Erreur fichier système. Échec de l&apos;écriture de la pièce jointe dans l&apos;emplacement temporaire `%1`.</translation>
     </message>
     <message>
         <source>File system error. Failed to open attachment for writing on temporary `%1`.</source>
@@ -4437,7 +4437,7 @@ Cancel to make a minimal device scan instead.</source>
     </message>
     <message>
         <source>This value will correct the Z values recorded from the positioning device. If a value of 1.6 is entered, the system will automatically subtract 1.6 from each recorded value. Make sure to insert the effective antenna height, i.e. pole length + antenna phase center offset.</source>
-        <translation type="unfinished"/>
+        <translation>Cette valeur corrigera les valeurs Z enregistrées à partir du dispositif de positionnement. Si une valeur de 1,6 est saisie, le système soustraira automatiquement 1,6 de chaque valeur enregistrée. Veillez à insérer la hauteur effective de l&apos;antenne, c&apos;est-à-dire la longueur du poteau + le décalage du centre de phase de l&apos;antenne.</translation>
     </message>
     <message>
         <source>%1 Settings</source>
@@ -4449,7 +4449,7 @@ Cancel to make a minimal device scan instead.</source>
     </message>
     <message>
         <source>Enable proxy</source>
-        <translation type="unfinished"/>
+        <translation>Activer le proxy</translation>
     </message>
     <message>
         <source>Type</source>
