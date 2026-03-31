@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classgallery__relation__editor" kind="class" language="C++" prot="public">
+    <compoundname>gallery_relation_editor</compoundname>
+    <basecompoundref refid="classRelationEditorBase" prot="public" virt="non-virtual">RelationEditorBase</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classgallery__relation__editor_1a3d623514b1314c9f9bc35ec102a3b174" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool gallery_relation_editor::isGridView</definition>
+        <argsstring></argsstring>
+        <name>isGridView</name>
+        <qualifiedname>gallery_relation_editor::isGridView</qualifiedname>
+        <read>dummyGetter_isGridView_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" line="12" column="1" bodyfile="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classgallery__relation__editor_1a6dcd0b70e251ef0650bfdbc7f46ce971" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string gallery_relation_editor::imagePrefix</definition>
+        <argsstring></argsstring>
+        <name>imagePrefix</name>
+        <qualifiedname>gallery_relation_editor::imagePrefix</qualifiedname>
+        <read>dummyGetter_imagePrefix_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" line="14" column="1" bodyfile="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classgallery__relation__editor_1a9e2371d8225444ade1ce2582ec0c0dab" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int gallery_relation_editor::documentViewer</definition>
+        <argsstring></argsstring>
+        <name>documentViewer</name>
+        <qualifiedname>gallery_relation_editor::documentViewer</qualifiedname>
+        <read>dummyGetter_documentViewer_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" line="16" column="1" bodyfile="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classgallery__relation__editor_1a736cfec34f6b6507196c724192fa3e9d" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="classResourceSource" kindref="compound">ResourceSource</ref></type>
+        <definition>ResourceSource gallery_relation_editor::resourceSource</definition>
+        <argsstring></argsstring>
+        <name>resourceSource</name>
+        <qualifiedname>gallery_relation_editor::resourceSource</qualifiedname>
+        <read>dummyGetter_resourceSource_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" line="18" column="1" bodyfile="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgallery__relation__editor_1a4b2675475548da7802979e84fdec85a4" prot="private" static="no" mutable="no">
+        <type>var gridView</type>
+        <definition>var gridView gallery_relation_editor::cellWidth</definition>
+        <argsstring></argsstring>
+        <name>cellWidth</name>
+        <qualifiedname>gallery_relation_editor::cellWidth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" line="20" column="13" bodyfile="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgallery__relation__editor_1a2450ab0c834d3a6693add517a4920bf0" prot="private" static="no" mutable="no">
+        <type>var gridView</type>
+        <definition>var gridView gallery_relation_editor::cellHeight</definition>
+        <argsstring></argsstring>
+        <name>cellHeight</name>
+        <qualifiedname>gallery_relation_editor::cellHeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" line="21" column="13" bodyfile="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgallery__relation__editor_1a0e5e184d8d552fbbc56195078835c587" prot="private" static="no" mutable="no">
+        <type>var gridView</type>
+        <definition>var gridView gallery_relation_editor::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <qualifiedname>gallery_relation_editor::model</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" line="22" column="13" bodyfile="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgallery__relation__editor_1a6f54f3c76bd6ce05c3c79c442f9ad360" prot="private" static="no" mutable="no">
+        <type><ref refid="classExpressionEvaluator" kindref="compound">ExpressionEvaluator</ref></type>
+        <definition>ExpressionEvaluator gallery_relation_editor::attachmentNamingEvaluator</definition>
+        <argsstring></argsstring>
+        <name>attachmentNamingEvaluator</name>
+        <qualifiedname>gallery_relation_editor::attachmentNamingEvaluator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" line="23" column="21" bodyfile="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgallery__relation__editor_1aa172e9ec860883c321fe66afcc39317d" prot="private" static="no" mutable="no">
+        <type>var</type>
+        <definition>var gallery_relation_editor::headerActions</definition>
+        <argsstring></argsstring>
+        <name>headerActions</name>
+        <qualifiedname>gallery_relation_editor::headerActions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" line="32" column="5" bodyfile="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgallery__relation__editor_1afee4c52d0f26dfb97c60d76c4edf75a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gallery_relation_editor::capturePhoto</definition>
+        <argsstring>()</argsstring>
+        <name>capturePhoto</name>
+        <qualifiedname>gallery_relation_editor::capturePhoto</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" line="26" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classgallery__relation__editor_1a886deb3a56cd7b12b14650d3c9152bfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gallery_relation_editor::captureVideo</definition>
+        <argsstring>()</argsstring>
+        <name>captureVideo</name>
+        <qualifiedname>gallery_relation_editor::captureVideo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" line="28" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classgallery__relation__editor_1a76011dae12b8b79b76c5e13e27384544" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gallery_relation_editor::captureAudio</definition>
+        <argsstring>()</argsstring>
+        <name>captureAudio</name>
+        <qualifiedname>gallery_relation_editor::captureAudio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" line="30" column="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>EditorWidgetBase</label>
+        <link refid="classEditorWidgetBase"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>QtQuick::Item</label>
+      </node>
+      <node id="2">
+        <label>RelationEditorBase</label>
+        <link refid="classRelationEditorBase"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gallery_relation_editor</label>
+        <link refid="classgallery__relation__editor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>EditorWidgetBase</label>
+        <link refid="classEditorWidgetBase"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>QtQuick::Item</label>
+      </node>
+      <node id="2">
+        <label>RelationEditorBase</label>
+        <link refid="classRelationEditorBase"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gallery_relation_editor</label>
+        <link refid="classgallery__relation__editor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" line="9" column="1" bodyfile="src/qml/editorwidgets/relationeditors/gallery_relation_editor.qml" bodystart="9" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classgallery__relation__editor_1a6f54f3c76bd6ce05c3c79c442f9ad360" prot="private" virt="non-virtual"><scope>gallery_relation_editor</scope><name>attachmentNamingEvaluator</name></member>
+      <member refid="classRelationEditorBase_1a0b1358aacfc746c456a8b6dafd7e56ca" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>bottomMargin</name></member>
+      <member refid="classgallery__relation__editor_1a76011dae12b8b79b76c5e13e27384544" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>captureAudio</name></member>
+      <member refid="classgallery__relation__editor_1afee4c52d0f26dfb97c60d76c4edf75a4" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>capturePhoto</name></member>
+      <member refid="classgallery__relation__editor_1a886deb3a56cd7b12b14650d3c9152bfb" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>captureVideo</name></member>
+      <member refid="classgallery__relation__editor_1a2450ab0c834d3a6693add517a4920bf0" prot="private" virt="non-virtual"><scope>gallery_relation_editor</scope><name>cellHeight</name></member>
+      <member refid="classgallery__relation__editor_1a4b2675475548da7802979e84fdec85a4" prot="private" virt="non-virtual"><scope>gallery_relation_editor</scope><name>cellWidth</name></member>
+      <member refid="classRelationEditorBase_1aa43132d3b35d2a05418f15c3f46caeef" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>childMenu</name></member>
+      <member refid="classRelationEditorBase_1a345db2d35b0cc8f825dab478e6da8146" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>deleteDialog</name></member>
+      <member refid="classgallery__relation__editor_1a9e2371d8225444ade1ce2582ec0c0dab" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>documentViewer</name></member>
+      <member refid="classRelationEditorBase_1ae242243bffe58b7d37a0f10e3a447e1d" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>embeddedPopup</name></member>
+      <member refid="classRelationEditorBase_1a3f02e30c8ca2a8bd3b44f5f14b768f3f" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>ensureEmbeddedFormLoaded</name></member>
+      <member refid="classRelationEditorBase_1a3410cdaff00365e0d24674172533280d" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>footer</name></member>
+      <member refid="classRelationEditorBase_1a90221511c76807990ec0ad7d1ce73993" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>footerContent</name></member>
+      <member refid="classRelationEditorBase_1aa6f023a3b96a46bdbcf0adc52a160f62" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>gridView</name></member>
+      <member refid="classEditorWidgetBase_1a09df69fe97d43104557cf6b6ff92733d" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>hasMenu</name></member>
+      <member refid="classgallery__relation__editor_1aa172e9ec860883c321fe66afcc39317d" prot="private" virt="non-virtual"><scope>gallery_relation_editor</scope><name>headerActions</name></member>
+      <member refid="classRelationEditorBase_1a238ad08db1c2ad22d7b2c74c9fe7fead" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>headerEntry</name></member>
+      <member refid="classgallery__relation__editor_1a6dcd0b70e251ef0650bfdbc7f46ce971" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>imagePrefix</name></member>
+      <member refid="classRelationEditorBase_1af22c928cd2fd81e5283057233e9557fb" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>isActionEnabled</name></member>
+      <member refid="classEditorWidgetBase_1a5e234aeb8a604b878c0ea42b3666287d" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>isEmpty</name></member>
+      <member refid="classgallery__relation__editor_1a3d623514b1314c9f9bc35ec102a3b174" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>isGridView</name></member>
+      <member refid="classEditorWidgetBase_1a9bf5802500e205dc6689be4e3144d7a9" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>isLoaded</name></member>
+      <member refid="classEditorWidgetBase_1a68f4219d74a2b92e087e85eb77d8cd4c" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>isNull</name></member>
+      <member refid="classRelationEditorBase_1abc8aa425dd351c3fda6ee678f7c4f9db" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>itemCount</name></member>
+      <member refid="classRelationEditorBase_1a7f71188f33e63c9b0ca6e7115f6cd32c" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>itemHeight</name></member>
+      <member refid="classRelationEditorBase_1ab7379038b99e7503187dc0bdc6878c51" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>maximumVisibleItems</name></member>
+      <member refid="classEditorWidgetBase_1a7833a10df4c49cd3d197cb1fec54c1b8" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>menu</name></member>
+      <member refid="classgallery__relation__editor_1a0e5e184d8d552fbbc56195078835c587" prot="private" virt="non-virtual"><scope>gallery_relation_editor</scope><name>model</name></member>
+      <member refid="classRelationEditorBase_1a6bd26b8d6049f85de33904c384af0867" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>relationEditorModel</name></member>
+      <member refid="classEditorWidgetBase_1a85e6ed4c11d34c9e84215dd004e8711c" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>requestBarcode</name></member>
+      <member refid="classRelationEditorBase_1a434aaf56f9e0d61d16fdcdde4ad806ba" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>requestedGeometryReceived</name></member>
+      <member refid="classEditorWidgetBase_1ae2d3df77c7c98886d2f0bbd18090bd1c" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>requestGeometry</name></member>
+      <member refid="classEditorWidgetBase_1ac9d672c6436f98d79d2a5539cd0b9200" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>requestJumpToPoint</name></member>
+      <member refid="classgallery__relation__editor_1a736cfec34f6b6507196c724192fa3e9d" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>resourceSource</name></member>
+      <member refid="classRelationEditorBase_1a883415bd76c10f83c0af730b0254d789" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>showAddFeaturePopup</name></member>
+      <member refid="classRelationEditorBase_1a1a827458f333928b77dcb263bddc1125" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>showAllItems</name></member>
+      <member refid="classRelationEditorBase_1a77636f42f2208e63c20980ddee48a837" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>showAtlasMenu</name></member>
+      <member refid="classRelationEditorBase_1abbb94843663de8f6d24d46407545f343" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>showSortButton</name></member>
+      <member refid="classRelationEditorBase_1ac28ebc1abecde7bafcd636a967bb6bd2" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>toggleSortAction</name></member>
+      <member refid="classEditorWidgetBase_1afa2313f03e3b2887472534cc11ca1572" prot="public" virt="non-virtual"><scope>gallery_relation_editor</scope><name>valueChangeRequested</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
